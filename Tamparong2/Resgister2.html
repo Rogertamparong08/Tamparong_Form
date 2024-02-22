@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    .form {
+    border-style: outset;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.div1{
+   text-align: center;
+margin-top: 20px;
+}
+.texts {
+    padding: 30px;
+}
+.buttons{
+    width: 100px;
+    height: 50px;
+    color:aliceblue;
+    font-size: 20px;
+    background-color: blue;
+}
+</style>
+<body>
+    <form action="#" class="form">
+        <div Style = "text-align: center;">
+            <h1> Register Form</h1>
+        </div>
+        <div class="div1">
+            <Label for = "fname" class = "texts"> Firstname: </Label><br>
+            <input type = "text" id = "fname" placeholder="First Name">
+        </div>
+        <div class ="div1">
+            <Label for = "mname" class = "texts"> Middle Name: </Label><br>
+            <input type = "text" id = "mname" placeholder="Middle Name">
+        </div>
+        <div class ="div1">
+            <Label for = "lname" class = "texts"> Last Name: </Label><br>
+            <input type = "text" id = "lname" placeholder="Last Name">
+        </div>
+        <div class ="div1">
+            <Label for = "age" class = "texts"> Age: </Label><br>
+            <input type = "text" id = "age" placeholder="Age">
+        </div>
+            <div class ="div1">
+                <Label for = "Gender" class = "texts"> Gender: </Label><br>
+                <input type = "radio" id = "Male" value="Male" name = "Gender">
+                <Label for = "Gender">Male</Label>
+                <input type = "radio" id = "Female" value="Female" name = "Gender">
+                <Label for = "Gender">Female</Label>
+            </div>
+            <div class = "div1">
+                <Label for = "Course" class = "texts"> Course: </Label><br>
+                <input type = "radio" id = "BSIT" value="BSIT" name = "Course">
+                <Label for = "Course">BSIT</Label>
+                <input type = "radio" id = "BSCS" value="BSCS" name = "Course">
+                <Label for = "Course">BSCS</Label>
+                <input type = "radio" id = "BSTM" value="BSTM" name = "Course">
+                <Label for = "Course">BSTM</Label>
+            </div>
+            <div class = "div1">
+                <label for = "address"> Address:</label><br>
+                <input type="text " id = "address" placeholder="Address">
+            </div>
+
+            <div class = "div1">
+                <label for="number"> Number: </label><br>
+                <input type = "text" id = "number" placeholder="Enter No.">
+            </div>
+        <div class="div1">
+            <input type="button" value ="Create" class = "buttons"> 
+        </div>
+        </form>
+    
+</body>
+</html>
